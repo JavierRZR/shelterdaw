@@ -8,7 +8,7 @@ app.get('/ping', (_req, res) => {
     console.log("Pinged : " + new Date().toLocaleDateString())
     res.send("pong: " + new Date().toLocaleDateString())
 })
-
+//Prueba
 app.listen(PORT, () => {
     console.log(`Server running on port aaaa ${PORT}`)
 })
