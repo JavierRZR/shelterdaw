@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex me-5" href="./index.html">
+            <i class="fas fa-paw display-5"></i>
+            <span class=" ms-2 align-self-center">ShellDaw</span>
+        </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./animales">Animales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./protectoras">Protectoras</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Información</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./html/about.html">Sobre nosotros</a></li>
+                            <li><a class="dropdown-item" href="./html/mapaweb.html">Mapa Web</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex ">
+                    <button id="loginButton" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">Inicia sesión</button>
+                </form>
+                <li id="userProfile" class="nav-item dropdown pe-5">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"><i class="fa-solid fa-user h1 text-white"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./html/about.html">Perfil</a></li>
+                        <li><a class="dropdown-item" href="./html/mapaweb.html">Cerrar Sesión</a></li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+</nav>
+
+- var user = false
+    if user
+        script. 
+            $('#loginButton').addClass('d-none')
+    else 
+        script. 
+            $('#userProfile').addClass('d-none')
+
